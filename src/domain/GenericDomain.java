@@ -29,4 +29,11 @@ public abstract class GenericDomain<T> {
         return id != null ? id.hashCode() : 0;
     }
 
+    @Override
+    public String toString() {
+        return "GenericDomain{" +
+                "id=" + id +
+                '}';
+    }
+
 }
